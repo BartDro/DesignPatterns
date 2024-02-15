@@ -1,6 +1,6 @@
-package com.example.wzorceprojektowe.behawioralne.strategia.restauracja.chef;
+package com.example.wzorceprojektowe.behawioralne.strategia.restaurant.chef;
 
-import com.example.wzorceprojektowe.behawioralne.strategia.restauracja.chef.eggcooker.EggCooker;
+import com.example.wzorceprojektowe.behawioralne.strategia.restaurant.chef.eggcooker.EggCooker;
 
 public class Chef {
     private String name;

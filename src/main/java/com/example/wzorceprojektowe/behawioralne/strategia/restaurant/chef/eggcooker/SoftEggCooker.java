@@ -1,4 +1,4 @@
-package com.example.wzorceprojektowe.behawioralne.strategia.restauracja.chef.eggcooker;
+package com.example.wzorceprojektowe.behawioralne.strategia.restaurant.chef.eggcooker;
 
 public class SoftEggCooker implements EggCooker{
     @Override
