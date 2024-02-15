@@ -2,17 +2,7 @@ package com.example.wzorceprojektowe.behawioralne.chainresponsibility.army.messa
 
 import com.example.wzorceprojektowe.behawioralne.chainresponsibility.army.officer.OfficerRank;
 
-public class Message {
-
-    private final String content;
-    private final int code;
-    private final OfficerRank officerRank;
-
-    public Message(String content, int code, OfficerRank officerRank) {
-        this.content = content;
-        this.code = code;
-        this.officerRank = officerRank;
-    }
+public record Message(String content, int code, OfficerRank officerRank) {
 
     public String getContent() {
         return content;
